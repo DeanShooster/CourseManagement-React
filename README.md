@@ -25,3 +25,15 @@ Additionally the application relies on a backend for authentication and manageme
 <hr>
 
 <h2 align="center">Demo Videos</h2>
+
+**Demo Incognito**
+
+https://user-images.githubusercontent.com/92792238/165285092-cd95c3e9-5769-47e7-81d4-f3883f4c810c.mp4
+
+**Demo Student**
+
+https://user-images.githubusercontent.com/92792238/165285137-f27af53b-6a33-4af9-b861-5326c14c5295.mp4
+
+**Demo Professor**
+
+https://user-images.githubusercontent.com/92792238/165285201-508efe8e-2cad-4e00-8a3a-7f1ed4d2ed91.mp4
