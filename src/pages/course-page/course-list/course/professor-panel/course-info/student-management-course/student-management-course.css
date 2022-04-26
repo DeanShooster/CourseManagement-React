@@ -1,0 +1,26 @@
+
+
+.add-remove-student-button{
+    margin: 15px 0 15px 0;
+}
+
+.add-remove-student-button:hover{
+    cursor: pointer;
+    transform:  scale(1.1);
+}
+
+.add-remove-student{
+    border: double rgb(33, 64, 90);
+    background: linear-gradient(rgb(168, 181, 190),rgba(178, 178, 207, 0.781));
+    color: rgb(33, 64, 90);
+    text-shadow: 0 1px 0 black;
+    font-weight: bold;
+    font-size: 1.15rem;
+    border-radius: 5px;
+}
+
+.add-remove-student:hover{
+    color:rgb(192, 106, 0);
+    border: double rgb(219, 122, 2);
+    text-shadow: none;
+}

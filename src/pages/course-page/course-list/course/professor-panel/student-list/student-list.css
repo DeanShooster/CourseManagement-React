@@ -1,0 +1,67 @@
+
+.student-list{
+    width: 95%;
+    height: 100%;
+    border: double rgb(33, 64, 90);
+    border-radius: 4px;
+    background: linear-gradient(rgb(168, 181, 190),rgba(178, 178, 207, 0.781));
+    padding: 0;
+}
+
+.student-table-title{
+    width: 100%;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    border-left: 2px solid black;  border-right: 2px solid black;
+}
+
+.student-info{
+    display: grid;
+    width: 98%;
+    min-height: 25px;
+    text-align: center;
+    grid-template-columns: 7% 20% 25% 1fr;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.student-info:nth-child(1){
+    margin-top: 5px;
+    border-top: 2px solid black;
+}
+.student-info:last-child{
+    margin-bottom: 5px;
+}
+
+.student-info:nth-child(2){
+    border-top: 2px solid black;
+}
+
+.student-info-border{
+    border-right: 2px solid black;  border-left: 2px solid black;  border-bottom: 2px solid black;
+}
+
+.student-info div:nth-child(1),.student-info div:nth-child(2),.student-info div:nth-child(3){
+    border-right: solid black 1px;
+    height: 100%;
+}
+
+.student-list li:hover{
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+
+@media (min-width: 700px){
+
+    .student-info{
+        font-size: 1.2rem;
+    }
+}
+
+
+

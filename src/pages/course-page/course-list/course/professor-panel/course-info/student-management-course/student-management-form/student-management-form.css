@@ -1,0 +1,58 @@
+
+
+.add-remove-student-form{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    flex-wrap: wrap;
+}
+
+.add-remove-student-form input{
+    border-radius: 5px;
+    width: 140px;
+    height: 100%;
+    border: none;
+    height: 100%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.add-remove-student-form input::placeholder{
+    font-size: .8rem;
+}
+
+.add-remove-student-form-button{
+    border-radius: 3px;
+    border: none;
+    height: 100%;
+    width: 3.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(104, 131, 160);
+    color: rgb(38, 66, 114);
+}
+
+.add-remove-student-form button:hover{
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.15);
+}
+
+.previous-button{
+    margin: 10px 0 10px 0;
+}
+
+.previous-button:hover{
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.15);
+}
+
+@media (min-width: 700px){
+
+    .add-remove-student-form input{
+        width: 200px;
+    }
+}

@@ -1,0 +1,35 @@
+
+.login-form{
+    display: flex;
+    flex-flow: column;
+}
+.login-form input{
+    height: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.login-form input::placeholder{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.login-form button{
+    width: 35%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.error{
+    background-color: rgb(236, 156, 147);
+}
+
+.error-message{
+    font-family: cursive;
+    color: red;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+}

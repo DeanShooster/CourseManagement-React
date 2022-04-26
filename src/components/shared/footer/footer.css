@@ -1,0 +1,17 @@
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3a3a3;
+}
+
+@media  (min-width: 700px){
+    .footer-commercials{
+        display: flex;
+        margin-bottom: 10px;
+    }
+}

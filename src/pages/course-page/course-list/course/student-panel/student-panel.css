@@ -1,0 +1,101 @@
+
+.attendance-date{
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+}
+
+.student-panel{
+    text-align: center;
+    width: 80%;
+}
+
+.student-panel h3{
+    text-decoration: underline;
+    margin: 0 0 15px 0;
+}
+
+.attendance{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border: double rgb(33, 64, 90);
+    margin: 5px 0 15px 0;
+    position: relative;
+}
+
+.close-attendance{
+    position: absolute;
+    top: 5px; left: 5px;
+    font-weight: bold;
+    color:rgb(33, 64, 90);
+}
+.close-attendance:hover{
+    cursor: pointer;
+    color:darkorange;
+}
+
+.attendance form{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.attendance select{
+    width: 3.2rem;
+    text-align: center;
+    color: rgb(33, 64, 90);
+    border: none;
+    border-radius: 3px;
+}
+
+.attendance-select{
+    margin: 5px 0 5px 0;
+}
+
+.attendance-select label{
+    font-weight: bold;
+    color: rgb(33, 64, 90); text-shadow: 0 0 1px black;
+    margin-right: 5px;
+}
+
+.attendance-reason{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(33, 64, 90); text-shadow: 0 0 1px black;
+}
+
+.attendance-reason label{
+    text-decoration: underline;
+}
+
+.attendance-reason textarea{
+    height: 100px;
+    width: 70%;
+    color: rgb(33, 64, 90);
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(33, 64, 90);
+    resize: none;
+}
+
+.attendance button{
+    border:none;
+    border-radius: 3px;
+    color: rgb(33, 64, 90);
+    font-weight: bold;  font-size: 1rem;
+    text-align: center;
+    background-color: rgb(121, 157, 196);
+    width: 4.2rem;
+    height: 1.8rem;
+}
+
+.attendance button:hover{
+    cursor: pointer;
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+
+
+.user-menu{
+    width: 30%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-menu-logo{
+    width: 35px;
+    height: 35px;
+    color: rgb(29, 70, 104);
+    margin-right: 7px;
+}
+
+.user-menu button{
+    margin-right: 7px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    font-family: cursive;
+    color:rgb(17, 50, 105);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(48, 101, 156);
+}
+
+.user-menu button:hover{
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.15);
+}
+

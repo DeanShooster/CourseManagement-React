@@ -1,0 +1,42 @@
+
+a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+.nav{
+    width: 70%;
+    margin:auto;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0;
+}
+
+.nav li{
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 1px black;
+    text-align: center;
+    margin: 0 5px 0 5px;
+}
+
+.nav a:hover,.nav li:hover{
+    transform: scale(1.15);
+    color: rgb(216, 120, 2);
+    cursor: pointer;
+}
+
+@media (min-width: 600px){
+    .nav{
+        width: 50%;
+    }
+    .nav li{
+        font-size: 1.25rem;
+    }
+}

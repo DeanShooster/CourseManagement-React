@@ -1,0 +1,33 @@
+
+.course-info{
+    width: 90%;
+    height: 100%;
+    border: double rgb(33, 64, 90);
+    background: linear-gradient(rgb(168, 181, 190),rgba(178, 178, 207, 0.781));
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.course-info p{
+    width: 95%;
+    margin: 10px 0 10px 0;
+    padding: 0 5px 0 5px;
+    font-weight: bold;
+    font-family:monospace;
+    font-size: .9rem;
+}
+
+.info{
+    color:rgb(33, 64, 90);
+    text-shadow: 0 1px 0 black;
+}
+
+@media (min-width: 600px){
+    .course-info{
+        width: 240px;
+    }
+    .course-info p{
+        font-size: 1rem;
+    }
+}

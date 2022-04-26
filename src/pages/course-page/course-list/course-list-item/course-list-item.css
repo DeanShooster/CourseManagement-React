@@ -1,0 +1,51 @@
+
+.course-list-item{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 25px 0;
+    color: rgb(20, 54, 83);
+}
+
+.icon{
+    width: 55px;
+    height: 55px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color:rgb(230, 126, 0);
+}
+
+.course-list-item p{
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 600px){
+    .course-list-item{
+        width: 33%;
+    }
+
+    .icon{
+        width: 60px;
+        height: 60px;
+    }
+    .course-list-item p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .icon{
+        width: 75px;
+        height: 75px;
+    }
+    .course-list-item p{
+        font-size: 1.4rem;
+    }
+}

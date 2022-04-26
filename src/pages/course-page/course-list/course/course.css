@@ -1,0 +1,42 @@
+
+.course-container{
+    width: 80%;
+    min-height: 500px;
+    border: double rgb(33, 64, 90);
+    background: linear-gradient(rgb(199, 206, 211),rgba(184, 184, 199, 0.781));
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.course-title{
+    margin: 10px;
+    display: flex;
+    width: 90%;
+    border: 2px solid black;
+}
+
+.course-title h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    color: rgb(33, 64, 90);
+    text-shadow: 0 0 1px black;
+    text-align: center;
+}
+
+.students-container-title{
+    text-decoration: underline;
+    margin: 0 0 5px 0;
+}
+
+.students-container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}

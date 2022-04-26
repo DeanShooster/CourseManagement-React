@@ -1,0 +1,16 @@
+
+.student-attendance-container{
+    width: 90%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.student-attendance-container h3{
+    text-decoration: underline;
+    margin: 0;
+}
+
+.student-attendance-container h4{
+    margin: 3px 0 3px 0;
+}

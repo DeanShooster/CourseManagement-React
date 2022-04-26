@@ -1,0 +1,26 @@
+
+.commercial-note{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial-note h4{
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.445);
+    text-shadow: 0 1px 0 rgb(133, 133, 133);
+    font-family: cursive;
+    text-align: center;
+}
+
+.commercial-note ul{
+    margin: 0;
+    font-family: monospace;
+    text-shadow: 0 1px 0 rgb(133, 133, 133);
+}
+
+.commercial-note li{
+    color: rgb(133, 133, 133);
+}

@@ -1,0 +1,16 @@
+
+.logout{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout p{
+    margin: 0 4px 5px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(39, 56, 133);
+    color: rgb(17, 52, 114);
+}

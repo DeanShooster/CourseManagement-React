@@ -1,0 +1,27 @@
+
+
+section{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.campus-image{
+    height: 400px;
+    background-image: url('../../assets/campus.jfif');
+}
+
+.campus-image h1{
+    margin: 0;
+    font-size: 3rem;
+    padding: 20px 0 5px 35px;
+    color: rgb(49, 95, 133);
+    text-shadow: 0 2px 0 black, 0 0 3px black;
+}
+
+.campus-image p{
+    margin: 0;
+    font-size: 2rem;
+    padding-left: 20px;
+    color: rgb(49, 95, 133);
+    text-shadow: 0 1px 1px white;
+}

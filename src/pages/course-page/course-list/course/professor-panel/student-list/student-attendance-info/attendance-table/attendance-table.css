@@ -1,0 +1,32 @@
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5rem,1fr) );
+    width: 100%;
+    border: 2px black solid;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(rgb(105, 132, 151),rgba(102, 102, 136, 0.781));
+    gap: 3px;
+}
+
+.table>div{
+    box-shadow: 1px 0 10px 0 black;
+    min-height: 1.3rem;
+    background: linear-gradient(rgb(199, 206, 211),rgba(160, 160, 188, 0.479));
+    padding: .6rem;
+}
+
+.table>div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border: .5px solid orange;
+}
+
+.table>.attended{
+    background-color: rgb(12, 88, 12);
+}
+
+.table>.not-attended{
+    background-color: red;
+}

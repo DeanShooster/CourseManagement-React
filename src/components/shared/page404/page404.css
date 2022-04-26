@@ -1,0 +1,16 @@
+
+.page404{
+    width: 50%;
+    margin:auto;
+    border: double 3px black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: linear-gradient(rgb(199, 206, 211),rgba(184, 184, 199, 0.781));
+}
+
+.page404 p{
+    font-size: 1.2rem;
+}
