@@ -21,3 +21,7 @@ Additionally the application relies on a backend for authentication and manageme
 <h2 align="center">Build With</h2>
 
 -   [React](https://reactjs.org/)
+
+<hr>
+
+<h2 align="center">Demo Videos</h2>
