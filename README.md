@@ -20,7 +20,7 @@ Additionally the application relies on a backend for authentication and manageme
 <hr>
 <h2 align="center">Build With</h2>
 
--   [React](https://reactjs.org/)
+-   [React V6](https://reactjs.org/)
 
 <hr>
 
